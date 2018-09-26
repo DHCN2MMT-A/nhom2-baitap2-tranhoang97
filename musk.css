@@ -1,0 +1,60 @@
+﻿/*Hải Nam*/
+nav{
+	margin-left: 800px;
+}
+
+/*Định dạng chữ*/
+h3{
+	text-align: center;
+	text-decoration: underline;
+}
+
+p{
+	color: blue
+}
+
+body h1{
+	text-align: center;
+	color: red;
+}
+
+/*Box*/
+img{
+	height: 200px;
+	width: 200px;
+}
+.box{
+	border: 1px solid:white;
+	height: 400px;
+	width: 900px;
+	display:-webkit-box;
+    -webkit-box-align: stretch;
+
+}
+.leftBox{
+	height: 200px;
+		display: box;
+		width: 	45%;
+		display:-webkit-box;
+    -webkit-box-align: stretch;
+    
+}
+#PopMedia {
+	display: block;
+	margin-top: 400px;
+}
+/*ul*/
+
+ol li:nth-child(odd){
+	color: red;
+}
+
+ol li:nth-child(even) {
+    color: blue;
+}
+ul li:nth-child(odd) {
+	color: blue;
+}
+ul li:nth-child(even) {
+	color: red;
+}
